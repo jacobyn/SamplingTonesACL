@@ -1,0 +1,801 @@
+feature|tone|rater_order|current_rating
+positive in valence|admiring|0|5
+positive in valence|admiring|1|5
+positive in valence|admiring|2|5
+positive in valence|admiring|3|5
+positive in valence|admiring|4|5
+positive in valence|affectionate|0|5
+positive in valence|affectionate|1|5
+positive in valence|affectionate|2|5
+positive in valence|affectionate|3|5
+positive in valence|affectionate|4|5
+positive in valence|angry|0|1
+positive in valence|angry|1|1
+positive in valence|angry|2|1
+positive in valence|angry|3|1
+positive in valence|angry|4|1
+positive in valence|annoyed|0|1
+positive in valence|annoyed|1|1
+positive in valence|annoyed|2|1
+positive in valence|annoyed|3|1
+positive in valence|annoyed|4|1
+positive in valence|anxious|0|1
+positive in valence|anxious|1|1
+positive in valence|anxious|2|1
+positive in valence|anxious|3|1
+positive in valence|anxious|4|1
+positive in valence|apologetic|0|2
+positive in valence|apologetic|1|2
+positive in valence|apologetic|2|2
+positive in valence|apologetic|3|2
+positive in valence|apologetic|4|2
+positive in valence|appreciative|0|5
+positive in valence|appreciative|1|5
+positive in valence|appreciative|2|5
+positive in valence|appreciative|3|5
+positive in valence|appreciative|4|5
+positive in valence|concerned|0|2
+positive in valence|concerned|1|2
+positive in valence|concerned|2|2
+positive in valence|concerned|3|2
+positive in valence|concerned|4|2
+positive in valence|confused|0|2
+positive in valence|confused|1|2
+positive in valence|confused|2|2
+positive in valence|confused|3|2
+positive in valence|confused|4|2
+positive in valence|curious|0|4
+positive in valence|curious|1|3
+positive in valence|curious|2|4
+positive in valence|curious|3|4
+positive in valence|curious|4|4
+positive in valence|defensive|0|2
+positive in valence|defensive|1|2
+positive in valence|defensive|2|2
+positive in valence|defensive|3|2
+positive in valence|defensive|4|2
+positive in valence|descriptive|0|3
+positive in valence|descriptive|1|3
+positive in valence|descriptive|2|3
+positive in valence|descriptive|3|3
+positive in valence|descriptive|4|3
+positive in valence|desperate|0|1
+positive in valence|desperate|1|1
+positive in valence|desperate|2|1
+positive in valence|desperate|3|1
+positive in valence|desperate|4|1
+positive in valence|disappointed|0|1
+positive in valence|disappointed|1|1
+positive in valence|disappointed|2|1
+positive in valence|disappointed|3|1
+positive in valence|disappointed|4|1
+positive in valence|encouraging|0|5
+positive in valence|encouraging|1|5
+positive in valence|encouraging|2|5
+positive in valence|encouraging|3|5
+positive in valence|encouraging|4|5
+positive in valence|excited|0|5
+positive in valence|excited|1|5
+positive in valence|excited|2|5
+positive in valence|excited|3|5
+positive in valence|excited|4|5
+positive in valence|friendly|0|5
+positive in valence|friendly|1|5
+positive in valence|friendly|2|5
+positive in valence|friendly|3|5
+positive in valence|friendly|4|5
+positive in valence|frustrated|0|1
+positive in valence|frustrated|1|1
+positive in valence|frustrated|2|1
+positive in valence|frustrated|3|1
+positive in valence|frustrated|4|1
+positive in valence|grateful|0|5
+positive in valence|grateful|1|5
+positive in valence|grateful|2|5
+positive in valence|grateful|3|5
+positive in valence|grateful|4|5
+positive in valence|happy|0|5
+positive in valence|happy|1|5
+positive in valence|happy|2|5
+positive in valence|happy|3|5
+positive in valence|happy|4|5
+positive in valence|indignant|0|1
+positive in valence|indignant|1|1
+positive in valence|indignant|2|1
+positive in valence|indignant|3|1
+positive in valence|indignant|4|1
+positive in valence|irritated|0|1
+positive in valence|irritated|1|1
+positive in valence|irritated|2|1
+positive in valence|irritated|3|1
+positive in valence|irritated|4|1
+positive in valence|joyful|0|5
+positive in valence|joyful|1|5
+positive in valence|joyful|2|5
+positive in valence|joyful|3|5
+positive in valence|joyful|4|5
+positive in valence|nostalgic|0|3
+positive in valence|nostalgic|1|3
+positive in valence|nostalgic|2|3.5
+positive in valence|nostalgic|3|3
+positive in valence|nostalgic|4|3
+positive in valence|pleased|0|5
+positive in valence|pleased|1|5
+positive in valence|pleased|2|5
+positive in valence|pleased|3|5
+positive in valence|pleased|4|5
+positive in valence|proud|0|5
+positive in valence|proud|1|4
+positive in valence|proud|2|5
+positive in valence|proud|3|5
+positive in valence|proud|4|5
+positive in valence|reassuring|0|5
+positive in valence|reassuring|1|5
+positive in valence|reassuring|2|5
+positive in valence|reassuring|3|5
+positive in valence|reassuring|4|5
+positive in valence|reflective|0|3
+positive in valence|reflective|1|3
+positive in valence|reflective|2|3
+positive in valence|reflective|3|3
+positive in valence|reflective|4|3
+positive in valence|relieved|0|4
+positive in valence|relieved|1|4
+positive in valence|relieved|2|4
+positive in valence|relieved|3|4
+positive in valence|relieved|4|4
+positive in valence|resigned|0|1
+positive in valence|resigned|1|1
+positive in valence|resigned|2|1
+positive in valence|resigned|3|2
+positive in valence|resigned|4|2
+positive in valence|sad|0|1
+positive in valence|sad|1|1
+positive in valence|sad|2|1
+positive in valence|sad|3|1
+positive in valence|sad|4|1
+positive in valence|sarcastic|0|2
+positive in valence|sarcastic|1|2
+positive in valence|sarcastic|2|2
+positive in valence|sarcastic|3|1
+positive in valence|sarcastic|4|2
+positive in valence|shocked|0|2
+positive in valence|shocked|1|1
+positive in valence|shocked|2|2
+positive in valence|shocked|3|2
+positive in valence|shocked|4|1
+positive in valence|skeptical|0|2
+positive in valence|skeptical|1|2
+positive in valence|skeptical|2|2
+positive in valence|skeptical|3|2
+positive in valence|skeptical|4|2
+positive in valence|surprised|0|3
+positive in valence|surprised|1|3
+positive in valence|surprised|2|3
+positive in valence|surprised|3|3
+positive in valence|surprised|4|3
+positive in valence|sympathetic|0|4
+positive in valence|sympathetic|1|3
+positive in valence|sympathetic|2|4
+positive in valence|sympathetic|3|4
+positive in valence|sympathetic|4|4
+positive in valence|thankful|0|5
+positive in valence|thankful|1|5
+positive in valence|thankful|2|5
+positive in valence|thankful|3|5
+positive in valence|thankful|4|5
+positive in valence|uncertain|0|2
+positive in valence|uncertain|1|2
+positive in valence|uncertain|2|2
+positive in valence|uncertain|3|2
+positive in valence|uncertain|4|2
+positive in valence|urgent|0|2
+positive in valence|urgent|1|2
+positive in valence|urgent|2|2
+positive in valence|urgent|3|2
+positive in valence|urgent|4|2
+positive in valence|worried|0|1
+positive in valence|worried|1|1
+positive in valence|worried|2|1
+positive in valence|worried|3|1
+positive in valence|worried|4|1
+aroused|admiring|0|3
+aroused|admiring|1|3
+aroused|admiring|2|3
+aroused|admiring|3|3
+aroused|admiring|4|4
+aroused|affectionate|0|3
+aroused|affectionate|1|3
+aroused|affectionate|2|3
+aroused|affectionate|3|3
+aroused|affectionate|4|4
+aroused|angry|0|5
+aroused|angry|1|5
+aroused|angry|2|5
+aroused|angry|3|5
+aroused|angry|4|5
+aroused|annoyed|0|4
+aroused|annoyed|1|4
+aroused|annoyed|2|4
+aroused|annoyed|3|4
+aroused|annoyed|4|4
+aroused|anxious|0|5
+aroused|anxious|1|5
+aroused|anxious|2|5
+aroused|anxious|3|5
+aroused|anxious|4|5
+aroused|apologetic|0|2
+aroused|apologetic|1|2
+aroused|apologetic|2|2
+aroused|apologetic|3|2
+aroused|apologetic|4|2
+aroused|appreciative|0|3
+aroused|appreciative|1|3
+aroused|appreciative|2|3
+aroused|appreciative|3|3
+aroused|appreciative|4|3
+aroused|concerned|0|4
+aroused|concerned|1|4
+aroused|concerned|2|4
+aroused|concerned|3|4
+aroused|concerned|4|4
+aroused|confused|0|2
+aroused|confused|1|2
+aroused|confused|2|2
+aroused|confused|3|2
+aroused|confused|4|2
+aroused|curious|0|3
+aroused|curious|1|3
+aroused|curious|2|3
+aroused|curious|3|3
+aroused|curious|4|3
+aroused|defensive|0|4
+aroused|defensive|1|4
+aroused|defensive|2|4
+aroused|defensive|3|4
+aroused|defensive|4|4
+aroused|descriptive|0|2
+aroused|descriptive|1|2
+aroused|descriptive|2|2
+aroused|descriptive|3|2
+aroused|descriptive|4|3
+aroused|desperate|0|5
+aroused|desperate|1|5
+aroused|desperate|2|5
+aroused|desperate|3|5
+aroused|desperate|4|5
+aroused|disappointed|0|4
+aroused|disappointed|1|3
+aroused|disappointed|2|3
+aroused|disappointed|3|3
+aroused|disappointed|4|3
+aroused|encouraging|0|3
+aroused|encouraging|1|3
+aroused|encouraging|2|3
+aroused|encouraging|3|3
+aroused|encouraging|4|3
+aroused|excited|0|5
+aroused|excited|1|5
+aroused|excited|2|5
+aroused|excited|3|5
+aroused|excited|4|5
+aroused|friendly|0|3
+aroused|friendly|1|2
+aroused|friendly|2|2
+aroused|friendly|3|2
+aroused|friendly|4|2
+aroused|frustrated|0|5
+aroused|frustrated|1|4
+aroused|frustrated|2|4
+aroused|frustrated|3|4
+aroused|frustrated|4|4
+aroused|grateful|0|3
+aroused|grateful|1|3
+aroused|grateful|2|3
+aroused|grateful|3|3
+aroused|grateful|4|3
+aroused|happy|0|4
+aroused|happy|1|4
+aroused|happy|2|4
+aroused|happy|3|4
+aroused|happy|4|4
+aroused|indignant|0|5
+aroused|indignant|1|5
+aroused|indignant|2|5
+aroused|indignant|3|5
+aroused|indignant|4|5
+aroused|irritated|0|4
+aroused|irritated|1|4
+aroused|irritated|2|4
+aroused|irritated|3|4
+aroused|irritated|4|4
+aroused|joyful|0|5
+aroused|joyful|1|5
+aroused|joyful|2|5
+aroused|joyful|3|5
+aroused|joyful|4|5
+aroused|nostalgic|0|2
+aroused|nostalgic|1|2
+aroused|nostalgic|2|2
+aroused|nostalgic|3|2
+aroused|nostalgic|4|2
+aroused|pleased|0|3
+aroused|pleased|1|3
+aroused|pleased|2|3
+aroused|pleased|3|3
+aroused|pleased|4|3
+aroused|proud|0|4
+aroused|proud|1|4
+aroused|proud|2|4
+aroused|proud|3|4
+aroused|proud|4|4
+aroused|reassuring|0|2
+aroused|reassuring|1|2
+aroused|reassuring|2|2
+aroused|reassuring|3|2
+aroused|reassuring|4|2
+aroused|reflective|0|2
+aroused|reflective|1|2
+aroused|reflective|2|2
+aroused|reflective|3|2
+aroused|reflective|4|2
+aroused|relieved|0|2
+aroused|relieved|1|2
+aroused|relieved|2|2
+aroused|relieved|3|2
+aroused|relieved|4|2
+aroused|resigned|0|1
+aroused|resigned|1|2
+aroused|resigned|2|1
+aroused|resigned|3|1
+aroused|resigned|4|1
+aroused|sad|0|2
+aroused|sad|1|2
+aroused|sad|2|2
+aroused|sad|3|2
+aroused|sad|4|2
+aroused|sarcastic|0|3
+aroused|sarcastic|1|3
+aroused|sarcastic|2|3
+aroused|sarcastic|3|3
+aroused|sarcastic|4|3
+aroused|shocked|0|5
+aroused|shocked|1|5
+aroused|shocked|2|5
+aroused|shocked|3|5
+aroused|shocked|4|5
+aroused|skeptical|0|3
+aroused|skeptical|1|2
+aroused|skeptical|2|2
+aroused|skeptical|3|2
+aroused|skeptical|4|3
+aroused|surprised|0|4
+aroused|surprised|1|4
+aroused|surprised|2|4
+aroused|surprised|3|4
+aroused|surprised|4|4
+aroused|sympathetic|0|2
+aroused|sympathetic|1|3
+aroused|sympathetic|2|2
+aroused|sympathetic|3|2
+aroused|sympathetic|4|2
+aroused|thankful|0|2
+aroused|thankful|1|3
+aroused|thankful|2|3
+aroused|thankful|3|3
+aroused|thankful|4|3
+aroused|uncertain|0|2
+aroused|uncertain|1|2
+aroused|uncertain|2|2
+aroused|uncertain|3|2
+aroused|uncertain|4|2
+aroused|urgent|0|5
+aroused|urgent|1|5
+aroused|urgent|2|5
+aroused|urgent|3|5
+aroused|urgent|4|5
+aroused|worried|0|4
+aroused|worried|1|4
+aroused|worried|2|4
+aroused|worried|3|4
+aroused|worried|4|4
+Informational|admiring|0|1
+Informational|admiring|1|1
+Informational|admiring|2|1
+Informational|admiring|3|1
+Informational|admiring|4|1
+Informational|affectionate|0|1
+Informational|affectionate|1|1
+Informational|affectionate|2|1
+Informational|affectionate|3|1
+Informational|affectionate|4|1
+Informational|angry|0|2
+Informational|angry|1|1
+Informational|angry|2|1
+Informational|angry|3|1
+Informational|angry|4|2
+Informational|annoyed|0|1
+Informational|annoyed|1|1
+Informational|annoyed|2|1
+Informational|annoyed|3|1
+Informational|annoyed|4|1
+Informational|anxious|0|1
+Informational|anxious|1|1
+Informational|anxious|2|1
+Informational|anxious|3|1
+Informational|anxious|4|2
+Informational|apologetic|0|1
+Informational|apologetic|1|1
+Informational|apologetic|2|2
+Informational|apologetic|3|2
+Informational|apologetic|4|2
+Informational|appreciative|0|1
+Informational|appreciative|1|1
+Informational|appreciative|2|1
+Informational|appreciative|3|1
+Informational|appreciative|4|1
+Informational|concerned|0|2
+Informational|concerned|1|2
+Informational|concerned|2|3
+Informational|concerned|3|2
+Informational|concerned|4|2
+Informational|confused|0|1
+Informational|confused|1|2
+Informational|confused|2|1
+Informational|confused|3|2
+Informational|confused|4|1
+Informational|curious|0|3
+Informational|curious|1|3
+Informational|curious|2|3
+Informational|curious|3|3
+Informational|curious|4|3
+Informational|defensive|0|2
+Informational|defensive|1|2
+Informational|defensive|2|2
+Informational|defensive|3|2
+Informational|defensive|4|2
+Informational|descriptive|0|4
+Informational|descriptive|1|4
+Informational|descriptive|2|4
+Informational|descriptive|3|4
+Informational|descriptive|4|4
+Informational|desperate|0|1
+Informational|desperate|1|1
+Informational|desperate|2|1
+Informational|desperate|3|1
+Informational|desperate|4|1
+Informational|disappointed|0|1
+Informational|disappointed|1|1
+Informational|disappointed|2|1
+Informational|disappointed|3|1
+Informational|disappointed|4|1
+Informational|encouraging|0|2
+Informational|encouraging|1|2
+Informational|encouraging|2|2
+Informational|encouraging|3|2
+Informational|encouraging|4|2
+Informational|excited|0|2
+Informational|excited|1|2
+Informational|excited|2|2
+Informational|excited|3|2
+Informational|excited|4|2
+Informational|friendly|0|2
+Informational|friendly|1|2
+Informational|friendly|2|2
+Informational|friendly|3|2
+Informational|friendly|4|2
+Informational|frustrated|0|1
+Informational|frustrated|1|1
+Informational|frustrated|2|1
+Informational|frustrated|3|1
+Informational|frustrated|4|1
+Informational|grateful|0|1
+Informational|grateful|1|1
+Informational|grateful|2|1
+Informational|grateful|3|1
+Informational|grateful|4|1
+Informational|happy|0|1
+Informational|happy|1|1
+Informational|happy|2|1
+Informational|happy|3|1
+Informational|happy|4|1
+Informational|indignant|0|1
+Informational|indignant|1|1
+Informational|indignant|2|1
+Informational|indignant|3|1
+Informational|indignant|4|1
+Informational|irritated|0|1
+Informational|irritated|1|1
+Informational|irritated|2|1
+Informational|irritated|3|1
+Informational|irritated|4|1
+Informational|joyful|0|2
+Informational|joyful|1|1
+Informational|joyful|2|1
+Informational|joyful|3|2
+Informational|joyful|4|1
+Informational|nostalgic|0|1
+Informational|nostalgic|1|1
+Informational|nostalgic|2|1
+Informational|nostalgic|3|1
+Informational|nostalgic|4|1
+Informational|pleased|0|1
+Informational|pleased|1|1
+Informational|pleased|2|1
+Informational|pleased|3|1
+Informational|pleased|4|1
+Informational|proud|0|1
+Informational|proud|1|1
+Informational|proud|2|1
+Informational|proud|3|1
+Informational|proud|4|1
+Informational|reassuring|0|2
+Informational|reassuring|1|2
+Informational|reassuring|2|2
+Informational|reassuring|3|2
+Informational|reassuring|4|2
+Informational|reflective|0|2
+Informational|reflective|1|2
+Informational|reflective|2|2
+Informational|reflective|3|2
+Informational|reflective|4|2
+Informational|relieved|0|1
+Informational|relieved|1|1
+Informational|relieved|2|1
+Informational|relieved|3|1
+Informational|relieved|4|1
+Informational|resigned|0|1
+Informational|resigned|1|1
+Informational|resigned|2|1
+Informational|resigned|3|1
+Informational|resigned|4|1
+Informational|sad|0|1
+Informational|sad|1|1
+Informational|sad|2|1
+Informational|sad|3|1
+Informational|sad|4|1
+Informational|sarcastic|0|1
+Informational|sarcastic|1|1
+Informational|sarcastic|2|1
+Informational|sarcastic|3|1
+Informational|sarcastic|4|1
+Informational|shocked|0|1
+Informational|shocked|1|1
+Informational|shocked|2|1
+Informational|shocked|3|1
+Informational|shocked|4|1
+Informational|skeptical|0|2
+Informational|skeptical|1|2
+Informational|skeptical|2|2
+Informational|skeptical|3|2
+Informational|skeptical|4|2
+Informational|surprised|0|1
+Informational|surprised|1|1
+Informational|surprised|2|1
+Informational|surprised|3|2
+Informational|surprised|4|2
+Informational|sympathetic|0|2
+Informational|sympathetic|1|2
+Informational|sympathetic|2|1
+Informational|sympathetic|3|1
+Informational|sympathetic|4|1
+Informational|thankful|0|1
+Informational|thankful|1|1
+Informational|thankful|2|1
+Informational|thankful|3|1
+Informational|thankful|4|1
+Informational|uncertain|0|2
+Informational|uncertain|1|1
+Informational|uncertain|2|2
+Informational|uncertain|3|2
+Informational|uncertain|4|2
+Informational|urgent|0|2
+Informational|urgent|1|3
+Informational|urgent|2|3
+Informational|urgent|3|2
+Informational|urgent|4|2
+Informational|worried|0|1
+Informational|worried|1|1
+Informational|worried|2|1
+Informational|worried|3|1
+Informational|worried|4|2
+Relational|admiring|0|4
+Relational|admiring|1|4
+Relational|admiring|2|4
+Relational|admiring|3|3
+Relational|admiring|4|4
+Relational|affectionate|0|5
+Relational|affectionate|1|5
+Relational|affectionate|2|5
+Relational|affectionate|3|5
+Relational|affectionate|4|5
+Relational|angry|0|1
+Relational|angry|1|1
+Relational|angry|2|1
+Relational|angry|3|1
+Relational|angry|4|1
+Relational|annoyed|0|1
+Relational|annoyed|1|1
+Relational|annoyed|2|1
+Relational|annoyed|3|1
+Relational|annoyed|4|1
+Relational|anxious|0|2
+Relational|anxious|1|2
+Relational|anxious|2|2
+Relational|anxious|3|2
+Relational|anxious|4|2
+Relational|apologetic|0|4
+Relational|apologetic|1|4
+Relational|apologetic|2|4
+Relational|apologetic|3|4
+Relational|apologetic|4|4
+Relational|appreciative|0|5
+Relational|appreciative|1|5
+Relational|appreciative|2|5
+Relational|appreciative|3|5
+Relational|appreciative|4|5
+Relational|concerned|0|5
+Relational|concerned|1|4
+Relational|concerned|2|4
+Relational|concerned|3|4
+Relational|concerned|4|4
+Relational|confused|0|1
+Relational|confused|1|2
+Relational|confused|2|2
+Relational|confused|3|1
+Relational|confused|4|2
+Relational|curious|0|4
+Relational|curious|1|4
+Relational|curious|2|3
+Relational|curious|3|3
+Relational|curious|4|3
+Relational|defensive|0|2
+Relational|defensive|1|1
+Relational|defensive|2|2
+Relational|defensive|3|1
+Relational|defensive|4|2
+Relational|descriptive|0|2
+Relational|descriptive|1|2
+Relational|descriptive|2|3
+Relational|descriptive|3|3
+Relational|descriptive|4|2
+Relational|desperate|0|2
+Relational|desperate|1|2
+Relational|desperate|2|2
+Relational|desperate|3|2
+Relational|desperate|4|1
+Relational|disappointed|0|2
+Relational|disappointed|1|2
+Relational|disappointed|2|2
+Relational|disappointed|3|2
+Relational|disappointed|4|2
+Relational|encouraging|0|4
+Relational|encouraging|1|4
+Relational|encouraging|2|4
+Relational|encouraging|3|5
+Relational|encouraging|4|5
+Relational|excited|0|3
+Relational|excited|1|3
+Relational|excited|2|3
+Relational|excited|3|4
+Relational|excited|4|3
+Relational|friendly|0|5
+Relational|friendly|1|5
+Relational|friendly|2|5
+Relational|friendly|3|5
+Relational|friendly|4|5
+Relational|frustrated|0|1
+Relational|frustrated|1|1
+Relational|frustrated|2|1
+Relational|frustrated|3|1
+Relational|frustrated|4|1
+Relational|grateful|0|4
+Relational|grateful|1|5
+Relational|grateful|2|5
+Relational|grateful|3|4
+Relational|grateful|4|5
+Relational|happy|0|4
+Relational|happy|1|3
+Relational|happy|2|3
+Relational|happy|3|3
+Relational|happy|4|4
+Relational|indignant|0|1
+Relational|indignant|1|1
+Relational|indignant|2|1
+Relational|indignant|3|1
+Relational|indignant|4|1
+Relational|irritated|0|2
+Relational|irritated|1|1
+Relational|irritated|2|1
+Relational|irritated|3|1
+Relational|irritated|4|1
+Relational|joyful|0|4
+Relational|joyful|1|4
+Relational|joyful|2|4
+Relational|joyful|3|4
+Relational|joyful|4|4
+Relational|nostalgic|0|3
+Relational|nostalgic|1|3
+Relational|nostalgic|2|3
+Relational|nostalgic|3|3
+Relational|nostalgic|4|3
+Relational|pleased|0|3
+Relational|pleased|1|3
+Relational|pleased|2|3
+Relational|pleased|3|3
+Relational|pleased|4|3
+Relational|proud|0|1
+Relational|proud|1|1
+Relational|proud|2|1
+Relational|proud|3|2
+Relational|proud|4|2
+Relational|reassuring|0|5
+Relational|reassuring|1|5
+Relational|reassuring|2|4
+Relational|reassuring|3|5
+Relational|reassuring|4|4
+Relational|reflective|0|4
+Relational|reflective|1|4
+Relational|reflective|2|3
+Relational|reflective|3|3
+Relational|reflective|4|4
+Relational|relieved|0|1
+Relational|relieved|1|2
+Relational|relieved|2|2
+Relational|relieved|3|2
+Relational|relieved|4|2
+Relational|resigned|0|1
+Relational|resigned|1|2
+Relational|resigned|2|1
+Relational|resigned|3|2
+Relational|resigned|4|1
+Relational|sad|0|1
+Relational|sad|1|2
+Relational|sad|2|1
+Relational|sad|3|2
+Relational|sad|4|1
+Relational|sarcastic|0|1
+Relational|sarcastic|1|1
+Relational|sarcastic|2|1
+Relational|sarcastic|3|1
+Relational|sarcastic|4|1
+Relational|shocked|0|1
+Relational|shocked|1|1
+Relational|shocked|2|2
+Relational|shocked|3|1
+Relational|shocked|4|1
+Relational|skeptical|0|1
+Relational|skeptical|1|2
+Relational|skeptical|2|1
+Relational|skeptical|3|1
+Relational|skeptical|4|2
+Relational|surprised|0|2
+Relational|surprised|1|2
+Relational|surprised|2|2
+Relational|surprised|3|2
+Relational|surprised|4|2
+Relational|sympathetic|0|5
+Relational|sympathetic|1|5
+Relational|sympathetic|2|5
+Relational|sympathetic|3|5
+Relational|sympathetic|4|5
+Relational|thankful|0|4
+Relational|thankful|1|4
+Relational|thankful|2|4
+Relational|thankful|3|3
+Relational|thankful|4|4
+Relational|uncertain|0|2
+Relational|uncertain|1|2
+Relational|uncertain|2|2
+Relational|uncertain|3|2
+Relational|uncertain|4|2
+Relational|urgent|0|2
+Relational|urgent|1|1
+Relational|urgent|2|1
+Relational|urgent|3|1
+Relational|urgent|4|1
+Relational|worried|0|2
+Relational|worried|1|3
+Relational|worried|2|2
+Relational|worried|3|2
+Relational|worried|4|2

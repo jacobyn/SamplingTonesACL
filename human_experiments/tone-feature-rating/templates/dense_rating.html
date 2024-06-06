@@ -1,0 +1,132 @@
+{% macro dense_rating(params) %}
+<style>
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: #b2c3db;
+        border-color: #cdc6e9;
+        color: #3c3c76;
+    }
+
+    .content {
+        background-color: FFFFFF;
+        padding: 4rem;
+        width: 100%;
+    }
+
+    .btn-success {
+        margin-top:30px;
+    }
+
+    .slider {
+        -webkit-appearance: none;
+        background: linear-gradient(90deg, blue, red);
+        border-radius: 5px;
+        height: 12px;
+        outline: none;
+        transition: opacity .2s;
+        width: 100%;
+        text-align: center;
+        position:relative;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 24px;
+        height: 24px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: 1849AB;
+        cursor:pointer;
+        position:relative;
+        z-index: 99;
+    }
+
+    .slidercontainer {
+        max-height: 600px;
+        overflow: auto;
+    }
+
+    .sliderticks {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        margin-bottom:18px;
+    }
+
+    .sliderticks p {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 1px;
+        background: #D3D3D3;
+        height: 10px;
+        line-height: 40px;
+        margin: 0 0 20px 0;
+    }
+
+</style>
+
+<div class="content">
+    <h3> Rate Conversation Tones Here! </h3>
+    <p id="ratePrompt"></p>
+    <div id="slidercontainer" class="slidercontainer"></div>
+    <button onclick="submit()" type="button" class="btn btn-success">
+        Next Page
+    </button>
+    <!--  Here, null macro is not used so that the answer formatting is customizable  -->
+</div>
+
+<script>
+    function getData() {
+        let rawAnswers = {};
+        ratedTones.map(function (el) {
+            rawAnswers[el] = document.getElementById(`slider_${el}`).value;
+        })
+        return rawAnswers
+    }
+
+    submit = function () {
+        psynet.nextPage(getData())
+    }
+
+    window.onload = function () {
+        renderPrompt();
+        renderSliders();
+    }
+
+    function renderPrompt() {
+        let ratePrompt = document.getElementById("ratePrompt");
+        ratePrompt.innerHTML = `By clicking on the respective scalebars, with 1 being weakest and 5 being strongest,`
+        ratePrompt.innerHTML += `rate the strength of conversation tones on how <b>${ratedFeature}</b> it is. <br>
+        Here is an explanation of this feature: <div class="alert"><b>The property <b>${ratedFeature}</b> means: ${ratedFeatureDescription}</b></div> <br>
+        You only need to perform 30 comparisons, we will help you automatically end the experiment once 30 comparisons are completed!`
+    }
+
+    function renderSlider(tone_name) {
+        let sliderText = `<div class="slidercontainer" id="sliderContainer_${tone_name}">` +
+            `<p> Rate the tone <b>${tone_name}</b> in the above feature.</p>` +
+            `<input type="range" min="1" max="5" value="3" class="slider" id="slider_${tone_name}">` +
+            '<div class="sliderticks">' +
+            '<p>1</p> <p>2</p> <p>3</p> <p>4</p> <p>5</p>' +
+            '</div> </div>';
+        return sliderText;
+    }
+
+    function renderSliders() {
+        let sliderContainer = document.getElementById("slidercontainer");
+        let sliderHTML = "<hr>";
+        ratedTones.map(function (el) {
+            sliderHTML += renderSlider(el) + "<hr>";
+        })
+        sliderContainer.innerHTML = sliderHTML;
+        return sliderHTML;
+    }
+
+</script>
+{% endmacro %}

@@ -1,0 +1,6 @@
+,stoc_ot_senemb_nn_cache,stoc_ot_corremb_nn_cache,simple_ot_senemb_nn_cache,simple_ot_corremb_nn_cache,simple_proc_senemb_nn_cache,simple_proc_corremb_nn_cache,lexicon_induction_sememb_nn_cache,lexicon_induction_corremb_nn_cache
+0,0.35,0.425,0.2875,0.275,0.3625,0.4625,0.65,0.5125
+1,0.375,0.4875,0.28125,0.2375,0.375,0.45,0.64375,0.5625
+2,0.37916666666666665,0.575,0.2875,0.2708333333333333,0.3625,0.5333333333333333,0.6416666666666667,0.6125
+3,0.434375,0.621875,0.353125,0.30625,0.4625,0.634375,0.696875,0.609375
+4,0.475,0.695,0.39,0.3475,0.51,0.6825,0.7375,0.6475

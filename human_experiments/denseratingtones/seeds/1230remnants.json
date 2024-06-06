@@ -1,0 +1,56 @@
+{
+    "Do you remember those endless summers we spent at grandma`s lake house, fishing and telling stories around the campfire?": [
+        [
+            "appreciative",
+            5
+        ]
+    ],
+    "That has really angered me.": [
+        [
+            "urgent",
+            5
+        ]
+    ],
+    "That has really angered me. ": [
+        [
+            "angry",
+            5
+        ]
+    ],
+    "Oh my goodness, I can`t believe we are going to Disneyland tomorrow!": [
+        [
+            "joyful",
+            5
+        ]
+    ],
+    "Nothing seems to be going as planned.": [
+        [
+            "angry",
+            5
+        ]
+    ],
+    "I can`t wait for the concert tonight, it`s going to be amazing!": [
+        [
+            "angry",
+            5
+        ]
+    ],
+    "I am worried about my driving test.": [
+        [
+            "uncertain",
+            5
+        ]
+    ],
+    "The food was not as good as I thought it would be.": [
+        [
+            "proud",
+            5
+        ]
+    ],
+    "Why do you always leave your dirty dishes in the sink?": [
+        [
+            "resigned",
+            5
+        ]
+    ]
+}

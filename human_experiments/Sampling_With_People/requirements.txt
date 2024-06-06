@@ -1,0 +1,6 @@
+psynet@git+https://gitlab.com/PsyNetDev/PsyNet.git@83904bf0ebc6c07b172e6ae29cebec635ac22d8a#egg=psynet
+
+autocorrect==2.6.1
+PyDictionary==2.0.1
+alt-profanity-check==1.3.0
+nltk==3.8.1

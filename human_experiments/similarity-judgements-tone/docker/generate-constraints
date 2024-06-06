@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set -euo pipefail
+
+docker run \
+  --rm \
+  -v "${PWD}":/experiment \
+  -e SKIP_DEPENDENCY_CHECK="" \
+  registry.gitlab.com/psynetdev/psynet:master \
+  bash -c "cd /experiment && psynet generate-constraints"
+
+# Note: We should at some point pin a particular PsyNet version here instead of just pulling the latest Docker image

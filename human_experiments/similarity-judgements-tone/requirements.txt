@@ -1,0 +1,8 @@
+psynet@git+https://gitlab.com/PsyNetDev/PsyNet@v10.4.0#egg=psynet
+
+nltk==3.8.1
+dallinger==9.10.0
+psynet==10.4.0
+autocorrect==2.6.1
+MarkupSafe==2.1.3
+PyDictionary==2.0.1
